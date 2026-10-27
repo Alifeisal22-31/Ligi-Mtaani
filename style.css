@@ -1,0 +1,60 @@
+body {
+    font-family: Ariel, sans-serif;
+    background-color:black;
+    margin: 10px;
+    padding: 10px;
+}
+ header{
+    background-color: dark green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+  h1 {
+    text-align: center;
+  }
+
+  nav a {
+    color: white;
+    margin: 15px;
+  }
+  nav a:hover{
+    color:lightgreen;
+  }
+  main {
+    padding: 20px;
+  }
+  section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    color: darkgreen;
+  }
+
+  table {
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+    background-color: white;
+  }
+
+  th {
+    background-color: darkgreen;
+    color:white ;
+    padding:1px solid;
+  }
+
+  td {
+    padding: 12px;
+    text-align: center;
+    border:1px solid;
+  }
+
+  tr {
+    background-color: darkgreen;
+  }
+
