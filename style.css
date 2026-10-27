@@ -19,7 +19,8 @@ body {
     margin: 15px;
   }
   nav a:hover{
-    color:lightgreen;
+    color:yellow;
+    text-decoration: underline;
   }
   main {
     padding: 20px;
