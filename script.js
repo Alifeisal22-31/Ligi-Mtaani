@@ -25,3 +25,33 @@ let teams = [
 ];
 
  console.log(teams);
+
+ let matches = [
+    {
+    home: "Alhidaya football club",
+    away: "Talanta fc",
+    homescore: 2,
+    awayscore: 1
+    },
+   
+    {
+    home: "Simba fc",
+    away: "Huruma allstars fc",
+    homescore: 0,
+    awayscore: 0
+    },
+ ];
+
+  let scores = document.getElementById("scores");
+
+  if (scores) {
+    for (let i =0; i < matches.length; i++) {
+ let p = document.createElement("p");
+  p.textContent = matches[i].home + " " +
+   matches[i].homescore + "-" +
+   matches[i].awayScore + " "  +
+   matches[i].away;
+scores.appendChild(p);
+
+    }
+  }
