@@ -6,7 +6,7 @@ Ligi Mtaani is a simple football league website.
 - Recent match scores
 - League standing table
 - Team points and matches played
-
+- Match tracker allows to view and track football matches
 ## Technologies used
 - HTML
 - css
