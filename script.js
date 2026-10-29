@@ -23,8 +23,7 @@ let teams = [
     points: 1
    }
 ];
-
- console.log(teams);
+  console.log(teams);
 
  let matches = [
     {
@@ -41,6 +40,7 @@ let teams = [
     awayscore: 0
     },
  ];
+   
 
   let scores = document.getElementById("scores");
 
@@ -49,9 +49,10 @@ let teams = [
  let p = document.createElement("p");
   p.textContent = matches[i].home + " " +
    matches[i].homescore + "-" +
-   matches[i].awayScore + " "  +
+   matches[i].awayscore + " "  +
    matches[i].away;
 scores.appendChild(p);
 
     }
   }
+  console.log("Number of matches:", matches.length);
