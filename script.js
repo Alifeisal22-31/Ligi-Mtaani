@@ -63,11 +63,21 @@ scores.appendChild(p);
     for (let i = 0; i < teams.length; i++){
         let row = document.createElement("tr")
         row.innerHTML = `
-        <td>${i + i}</td>
+        <td>${i + 1 }</td>
         <td>${teams[i].name}</td>
         <td>${teams[i].played}</td>
         <td>${teams[i].points}</td>`;
         teamTable.appendChild(row);
 
+    }
+  }
+
+  const homeTeam = document.getElementById("homeTeam");
+  const awayTeam = document.getElementById("awayTeam");
+
+  if (homeTeam && awayTeam) {
+    for (let i = 0; i < teams.length; i++) {
+   homeTeam.innerHTML =+ `<option value="${teams[i].name}">${teams[i].name}</option>`
+   awayTeam.innerHTML =+ `<option value="${teams[i].name}">${teams[i].name}</option>`
     }
   }
