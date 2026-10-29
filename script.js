@@ -56,3 +56,18 @@ scores.appendChild(p);
     }
   }
   console.log("Number of matches:", matches.length);
+
+  let teamTable = document.getElementById("teamTable");
+
+  if (teamTable) {
+    for (let i = 0; i < teams.length; i++){
+        let row = document.createElement("tr")
+        row.innerHTML = `
+        <td>${i + i}</td>
+        <td>${teams[i].name}</td>
+        <td>${teams[i].played}</td>
+        <td>${teams[i].points}</td>`;
+        teamTable.appendChild(row);
+
+    }
+  }
